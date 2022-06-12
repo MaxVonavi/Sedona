@@ -1,5 +1,85 @@
 :root {
---color-blue: #81B3D2;
---color-braun: #766357;
---color-black: #000000;
+    --color-blue: #81B3D2;
+    --color-braun: #766357;
+    --color-black: #000000;
+    --color-white: #ffffff;
 }
+
+html {
+    font-size: 14px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2 {
+    display: none;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.page-nav a {
+    font-weight: 700; 
+    color: var(--color-black);
+    text-decoration: none;
+    line-height: 26px;
+}
+
+.welcome {
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+    line-height: 26px;
+}
+
+.welcome-slogan {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.advantages-content {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.advantages-ul-gray {
+    background-color: #eeeeee;
+}
+
+.search-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn {
+    color: var(--color-white);
+    border: none;
+}
+
+.btn-braun {
+    background-color: var(--color-braun);
+}
+
+.btn-search {
+    font-size: 21px;
+    font-weight: 26px;
+    width: 568px;
+    height: 86px;
+}
+
+.footer-ul li {
+    background-color: var(--color-blue);
+}
+
+.footer-text {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
