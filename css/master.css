@@ -27,6 +27,13 @@ h3 {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    text-transform: uppercase;
+}
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -35,7 +42,6 @@ h3 {
 .page-nav a {
     font-weight: 700; 
     color: var(--color-black);
-    text-decoration: none;
     line-height: 26px;
 }
 
@@ -67,10 +73,15 @@ h3 {
 .btn {
     color: var(--color-white);
     border: none;
+    font-weight: 700;
 }
 
 .btn-braun {
     background-color: var(--color-braun);
+}
+
+.btn-blue {
+    background-color: var(--color-blue);
 }
 
 .btn-search {
@@ -89,7 +100,7 @@ h3 {
     font-weight: 700;
 }
 
-.footer-li {
+.footer-li-icon {
    width: 46px;
    height: 48px; 
 }
@@ -103,8 +114,23 @@ h3 {
     color: var(--color-white);
 }
 
+.btn-catalog-more {
+    width: 110px;
+    height: 27px;
+}
 
+.btn-catalog-book {
+    width: 142px;
+    height: 27px;
+}
 
+.search-content-rating {
+    width: 110px;
+    height: 27px;
+    background-color: #f2f2f2;
+    color: #666666;
+    text-align: center;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
