@@ -17,7 +17,8 @@ ul {
     list-style: none;
 }
 
-h1, h2 {
+h1,
+h2 {
     display: none;
 }
 
@@ -34,13 +35,16 @@ a {
 button {
     text-transform: uppercase;
 }
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
+/*        главная        */
+
 .page-nav a {
-    font-weight: 700; 
+    font-weight: 700;
     color: var(--color-black);
     line-height: 26px;
 }
@@ -101,8 +105,8 @@ button {
 }
 
 .footer-li-icon {
-   width: 46px;
-   height: 48px; 
+    width: 46px;
+    height: 48px;
 }
 
 
@@ -132,5 +136,36 @@ button {
     text-align: center;
 }
 
+.search-input {
+    background: transparent;
+    border: 1px solid var(--color-white);
+}
+
+button.search-input {
+    width: 137px;
+    height: 36px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.sort {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-black);
+}
+
+.sort-active a {
+    color: var(--color-blue);
+}
+
+.sort-item a {
+    color: var(--color-black);
+    opacity: 0.3;
+    border-bottom: 1px dashed #81B3D2;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
