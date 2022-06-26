@@ -16,12 +16,11 @@
     <header class="page-header container">
         <nav class="page-nav">
             <ul>
-                <li> <a href="blank.html">Информация</a> </li>
-                <li> <a href="blank.html">Фото и видео</a> </li>
-                <li> <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="логотип на главной"></a>
-                </li>
-                <li> <a href="blank.html">Карта штата</a> </li>
-                <li> <a href="catalog.html">Гостиницы</a> </li>
+                <li class="page-nav-item"> <a href="blank.html">Информация</a> </li>
+                <li class="page-nav-item"> <a href="blank.html">Фото и видео</a> </li>
+                <li> <a href="#"><img src="img/logo.png" width="138" height="70" alt="логотип на главной"></a> </li>
+                <li class="page-nav-item"> <a href="blank.html">Карта штата</a> </li>
+                <li class="page-nav-item"> <a href="catalog.html">Гостиницы</a> </li>
             </ul>
         </nav>
     </header>
@@ -31,7 +30,7 @@
         <section class="search-catalog">
             <div class="search-catalog-filter">
                 <form>
-                    <fieldset>
+                    <div>
                         <legend>Инфраструктура:</legend>
                         <input class="search-input search-checkbox" type="checkbox" name="pool" id="filter-form-pool"
                             checked>
@@ -41,8 +40,8 @@
                         <label for="filter-form-parking">Парковка</label>
                         <input class="search-input search-checkbox" type="checkbox" name="wifi" id="filter-form-wifi">
                         <label for="filter-form-wifi">wi-fi</label>
-                    </fieldset>
-                    <fieldset>
+                    </div>
+                    <div>
                         <legend>Тип жилья:</legend>
                         <input class="search-input search-checkbox" type="checkbox" name="hotel" id="filter-form-hotel"
                             checked>
@@ -52,8 +51,8 @@
                         <input class="search-input search-checkbox" type="checkbox" name="apartments"
                             id="filter-form-apartments">
                         <label for="filter-form-apartments">Апартаменты</label>
-                    </fieldset>
-                    <fieldset>
+                    </div>
+                    <div>
                         <legend>Стоимость в сутки, ₽:</legend>
                         <input class="search-input" type="text" name="from" id="filter-form-from">
                         <label for="filter-form-from">От</label>
@@ -61,7 +60,7 @@
                         <label for="filter-form-to">До</label>
                         <button class="btn search-input" type="submit" name="show"
                             id="filter-form-show">Показать</button>
-                    </fieldset>
+                    </div>
                 </form>
             </div>
             <div class="sort">
@@ -136,6 +135,7 @@
             </div>
         </section>
     </main>
+
     <footer class="footer container">
         <p class="footer-text">#visitSEDONA</p>
         <p class="footer-text">+7 800 555-86-28</p>
