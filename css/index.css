@@ -199,6 +199,7 @@ button {
 
 .interesting {
     text-align: center;
+    position: relative;
 }
 
 .interesting-subtitle {
@@ -219,7 +220,37 @@ button {
     height: 86px;
 }
 
-/*     карта  и футер    */
+/*   скрытая форма     */
+
+/* .visible-hidden {
+    display: none;
+} */
+
+.form-arrival-block {
+    width: 568px;
+    height: 395px;
+    position: absolute;
+    margin: auto;
+    top: 670px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 2px rgba(59, 59, 59, 0.3);
+}
+
+.form-arrival {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-arrival-input {
+    width: 346px;
+    height: 38px;
+}
+
+/*     карта  и  футер    */
 
 .maps {
     margin-top: 5px;
