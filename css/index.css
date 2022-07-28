@@ -51,8 +51,25 @@ button {
     background-color: var(--color-braun);
 }
 
+.btn-braun:active {
+    background-color: #503E33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-braun:hover, .btn-braun:focus {
+    background-color: #604E43;
+}
+
 .btn-blue {
     background-color: var(--color-blue);
+}
+.btn-blue:active {
+    background-color: #5496BD;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-blue:hover, .btn-blue:focus{
+    background-color: #669EC0;
 }
 
 
@@ -72,6 +89,19 @@ button {
     font-weight: 700;
     color: var(--color-black);
     line-height: 26px;
+}
+
+.page-nav a:hover {
+    color: var(--color-blue);
+
+}
+.page-nav a:active {
+    color:  var(--color-black);
+    opacity: 0.3;
+}
+
+.page-nav-item a.active {
+    color: #766357;
 }
 
 .page-nav li {
@@ -231,7 +261,7 @@ button {
     height: 395px;
     position: absolute;
     margin: auto;
-    top: 670px;
+    top: 660px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -243,11 +273,53 @@ button {
 .form-arrival {
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
 }
 
-.form-arrival-input {
+.form-arrival-date {
     width: 346px;
     height: 38px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.form-arrival-number {
+    width: 115px;
+    height: 38px;
+    text-align: center;
+    box-sizing: border-box ;
+    font-weight: 700;
+}
+
+.form-arrival-label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.form-arrival-label:nth-of-type(2) {
+    width: 60px;
+    margin-left: 37px;
+    margin-right: 12px;
+}
+
+.form-arrival-field {
+    margin-top: 40px;
+}
+
+.form-arrival-field:nth-of-type(4) {
+    width: 568px;
+    margin-top: 55px;
+    display: flex;
+}
+
+.form-arrival-btn {
+    width: 458px;
+    height: 58px;
+    margin: 0 auto;
 }
 
 /*     карта  и  футер    */

@@ -28,7 +28,7 @@
             <ul>
 
                 <li class="page-nav-item">
-                    <a href="blank.html">Информация</a>
+                    <a class="active" href="index.html">Информация</a>
                 </li>
 
                 <li class="page-nav-item">
@@ -197,18 +197,30 @@
             <div class="form-arrival-block visible-hidden">
 
                 <form action="" id="arrival" class="form-arrival">
+                    
+                    <div class="form-arrival-field"> 
+                        <label class="form-arrival-label" for="arrival date">Дата звезда:</label>
+                        <input class="form-arrival-date" type="date" name="arrival-date" id="">
+                    </div>
 
-                    <input type="date" name="arrival-date" id="" class="form-arrival-input">
-                    <label for="arrival date">Дата звезда:</label>
-                    
-                    <input type="date" name="date-of-leaving" id="" class="form-arrival-input">
-                    <label for="date-of-leaving">Дата выезда:</label>
-                    
-                    <input type="number" name="adults" id="" value="1">
-                    <label for="adults">Взрослые</label>
-                    
-                    <input type="number" name="children" id="" value="0"> 
-                    <label for="children">Дети</label>
+                    <div class="form-arrival-field">
+                        <label class="form-arrival-label" for="date-of-leaving">Дата выезда:</label>
+                        <input class="form-arrival-date" type="date" name="date-of-leaving" id="">
+                    </div>
+
+                    <div class="form-arrival-field">
+                        <label class="form-arrival-label" for="adults">Взрослые</label>
+                        <input class="form-arrival-number" type="number" name="adults" id="" value="1">
+
+                        <label class="form-arrival-label" for="children">Дети</label>
+                        <input class="form-arrival-number" type="number" name="children" id="" value="0"> 
+                    </div>
+
+                    <div class="form-arrival-field">
+
+                        <button class="btn btn-blue form-arrival-btn" type="button">Найти</button>
+
+                    </div>
 
                 </form>
 

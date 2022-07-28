@@ -50,11 +50,27 @@ button {
 .btn-braun {
     background-color: var(--color-braun);
 }
+.btn-braun:active {
+    background-color: #503E33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-braun:hover, .btn-braun:focus {
+    background-color: #604E43;
+}
 
 .btn-blue {
     background-color: var(--color-blue);
 }
 
+.btn-blue:active {
+    background-color: #5496BD;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-blue:hover, .btn-blue:focus{
+    background-color: #669EC0;
+}
 
 /*         навигация           */
 
@@ -82,6 +98,18 @@ button {
     padding-top: 15px;
 }
 
+.page-nav a:hover {
+    color: var(--color-blue);
+
+}
+.page-nav a:active {
+    color:  var(--color-black);
+    opacity: 0.3;
+}
+
+.page-nav-item a.active {
+    color: #766357;
+}
 
 /*  страница каталога  */
 
