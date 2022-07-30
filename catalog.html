@@ -37,16 +37,16 @@
                     <a href="blank.html">Фото и видео</a>
                 </li>
 
-                <li> 
+                <li>
                     <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="логотип на главной"></a>
                 </li>
 
-                <li class="page-nav-item"> 
-                    <a href="blank.html">Карта штата</a> 
+                <li class="page-nav-item">
+                    <a href="blank.html">Карта штата</a>
                 </li>
 
-                <li class="page-nav-item"> 
-                    <a class="active" href="catalog.html">Гостиницы</a> 
+                <li class="page-nav-item">
+                    <a class="active" href="catalog.html">Гостиницы</a>
                 </li>
 
             </ul>
@@ -69,16 +69,29 @@
 
                         <legend>Инфраструктура:</legend>
 
-                        <input class="search-input search-checkbox" type="checkbox" name="pool" id="filter-form-pool"
-                            checked>
-                        <label for="filter-form-pool">Бассейн</label>
+                        <div class="search-catalog-field">
 
-                        <input class="search-input search-checkbox" type="checkbox" name="parking"
-                            id="filter-form-parking">
-                        <label for="filter-form-parking">Парковка</label>
+                            <input class="search-input search-checkbox" type="checkbox" name="pool"
+                                id="filter-form-pool" checked>
+                            <label class="search-label" for="filter-form-pool">Бассейн</label>
 
-                        <input class="search-input search-checkbox" type="checkbox" name="wifi" id="filter-form-wifi">
-                        <label for="filter-form-wifi">wi-fi</label>
+                        </div>
+
+                        <div class="search-catalog-field">
+
+                            <input class="search-input search-checkbox" type="checkbox" name="parking"
+                                id="filter-form-parking">
+                            <label class="search-label" for="filter-form-parking">Парковка</label>
+
+                        </div>
+
+                        <div class="search-catalog-field">
+
+                            <input class="search-input search-checkbox" type="checkbox" name="wifi"
+                                id="filter-form-wifi">
+                            <label class="search-label" for="filter-form-wifi">wi-fi</label>
+
+                        </div>
 
                     </div>
 
@@ -86,16 +99,29 @@
 
                         <legend>Тип жилья:</legend>
 
-                        <input class="search-input search-checkbox" type="checkbox" name="hotel" id="filter-form-hotel"
-                            checked>
-                        <label for="filter-form-hotel">Гостиница</label>
+                        <div class="search-catalog-field">
 
-                        <input class="search-input search-checkbox" type="checkbox" name="motel" id="filter-form-motel">
-                        <label for="filter-form-motel">Мотель</label>
+                            <input class="search-input search-checkbox" type="checkbox" name="hotel"
+                                id="filter-form-hotel" checked>
+                            <label class="search-label" for="filter-form-hotel">Гостиница</label>
 
-                        <input class="search-input search-checkbox" type="checkbox" name="apartments"
-                            id="filter-form-apartments">
-                        <label for="filter-form-apartments">Апартаменты</label>
+                        </div>
+
+                        <div class="search-catalog-field">
+
+                            <input class="search-input search-checkbox" type="checkbox" name="motel"
+                                id="filter-form-motel">
+                            <label class="search-label" for="filter-form-motel">Мотель</label>
+
+                        </div>
+
+                        <div class="search-catalog-field">
+
+                            <input class="search-input search-checkbox" type="checkbox" name="apartments"
+                                id="filter-form-apartments">
+                            <label class="search-label" for="filter-form-apartments">Апартаменты</label>
+
+                        </div>
 
                     </div>
 
@@ -103,14 +129,32 @@
 
                         <legend>Стоимость в сутки, ₽:</legend>
 
-                        <input class="search-input" type="text" name="from" id="filter-form-from">
-                        <label for="filter-form-from">От</label>
+                        <div class="search-range-block">
+                            <div class="search-range-field">
+                                <label for="filter-form-from">От</label>
+                                <input class="search-input" type="text" name="from" id="filter-form-from" value="0">
+                            </div>
 
-                        <input class="search-input" type="text" name="to" id="filter-form-to">
-                        <label for="filter-form-to">До</label>
+                            <div class="search-range-field">
+                                <label for="filter-form-to">До</label>
+                                <input class="search-input" type="text" name="to" id="filter-form-to" value="3000">    
+                            </div>
 
-                        <button class="btn search-input" type="submit" name="show" id="filter-form-show">Показать</button>
-                    
+                            
+                        </div>
+                        
+                        <div class="search-range-scale">
+                            
+                            <div class="sr-scale-bar"></div>
+                            <div class="sr-scale-color"></div>
+                            <div class="sr-toggle-min"></div>
+                            <div class="sr-toggle-max"></div>
+
+                        </div>
+
+                        <button class="btn search-catalog-button" type="submit" name="show"
+                            id="filter-form-show">Показать</button>
+
                     </div>
 
                 </form>
@@ -160,7 +204,7 @@
                         <img src="img/mini-img-1.jpg" width="135" height="90" alt="красный закат на фоне гор">
 
                         <div class="content-li_div">
-                            
+
                             <h4>Amara Resort & Spa</h4>
 
                             <p>Гостиница</p>
@@ -199,8 +243,9 @@
 
                     <li class="search-content_li">
 
-                        <img src="img/mini-img-2.jpg" width="135" height="90" alt="красивая вывеска га парковке у входа в каньйон">
-                        
+                        <img src="img/mini-img-2.jpg" width="135" height="90"
+                            alt="красивая вывеска га парковке у входа в каньйон">
+
                         <div class="content-li_div">
 
                             <h4>Desert Quail Inn</h4>
@@ -229,7 +274,7 @@
 
                             <div class="search-content-rating">
 
-                                <p>Рейтинг: 8,9</p>          
+                                <p>Рейтинг: 8,9</p>
 
                             </div>
                         </div>
@@ -316,7 +361,7 @@
                 <img src="img/logo_htmlacademy.svg" alt="logoHTMLa">
 
             </div>
-            
+
         </div>
         <!-- <img src="img/map.jpg" width="1200px" height="594px" alt="карта городка"> -->
     </footer>
