@@ -252,16 +252,16 @@ button {
 
 /*   скрытая форма     */
 
-/* .visible-hidden {
+.visible-hidden {
     display: none;
-} */
+}
 
 .form-arrival-block {
     width: 568px;
     height: 395px;
     position: absolute;
     margin: auto;
-    top: 660px;
+    top: 460px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -384,10 +384,16 @@ button {
     margin-right: 10px;
 }
 
+.yandex-maps {
+    border: none;
+}
+
+
+
 
 /*  страница каталога  */
 
-.search-catalog-filter {
+/* .search-catalog-filter {
     background: url('../img/background-sort.jpg') no-repeat;
     background-size: cover;
     color: var(--color-white);
@@ -441,4 +447,4 @@ h4 {
     color: var(--color-black);
     opacity: 0.3;
     border-bottom: 1px dashed #81B3D2;
-}
+} */
